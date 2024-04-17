@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP ON-LINE</title>
+
+
+<!-- FONTAWESOME CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Alumni+Sans+Collegiate+One:ital@1&family=Architects+Daughter&   family=Croissant+One&family=Dancing+Script&family=Dela+Gothic+One&family=Oswald:wght@500&family=Pixelify+Sans&family=Quicksand:wght@300&  display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Alumni+Sans+Collegiate+One:ital@1&family=Architects+Daughter&family=Croissant+One&family=Dancing+Script&family=Dela+Gothic+One&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Oswald:wght@500&family=Pixelify+Sans&family=Playfair+Display:ital@0;1&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Alumni+Sans+Collegiate+One:ital@1&family=Architects+Daughter&family=Croissant+One&family=Dancing+Script&family=Dela+Gothic+One&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Oswald:wght@500&family=Pixelify+Sans&family=Playfair+Display:ital@0;1&family=Quicksand:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+
+<!-- BOOTSTRAP CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!-- MY CSS -->
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row vh-50 bg-annunci">
+            <div class="col-12">
+                <h3 class="text-center mt-3"> SHOP ON-LINE </h3>
+            </div>
+        </div>
+        <div class="row vh-100 mt-5 ">
+            <div class="col-12 col-md-4 text-center">
+                <p> FILTRI </p>
+                <div class="accordion" id="accordionfilters">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Categoria
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionfilters">
+                        <div class="accordion-body" id="filterwrapper">
+                            <div class="form-check d-flex justify-content-start">
+                                <input class="form-check-input me-2" type="radio" name="Category" id="All" checked>
+                                <label class="form-check-label" for="All">
+                                   Tutte le categorie 
+                                </label>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Prezzo
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionfilters">
+                        <div class="accordion-body" id="classPriceFliter">
+                          <input type="range" class="inputRange">
+                          <p id="inputPrice"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Parola
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionfilters">
+                        <div class="accordion-body">
+                          <input type="form-control" class="d-flex justify-content-start" id="inputWord">
+                        </div>
+                      </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-8 d-flex justify-content-around flex-wrap" id="cardwrapper">
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- FONTAWESOME JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" 
+integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- MY JS -->
+<script src="./annunci.js"></script>
+</body>
+</html>

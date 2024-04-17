@@ -1,0 +1,292 @@
+[
+    {
+        "id":1,
+        "name": "Iphone XX",
+        "category": "Elettronica",
+        "price": "899"
+    },
+    {
+        "id": 2,
+        "name": "Cuffie Q52",
+        "category": "Musica",
+        "price": "200.50"
+    },
+    {
+        "id": 3,
+        "name": "BilanciereTech",
+        "category": "Sport",
+        "price": "300"
+    },
+    {
+        "id": 4,
+        "name": "Adinamo",
+        "category": "Zero Co2",
+        "price": "23"
+    },
+    {
+        "id": 5,
+        "name": "Felpa apple",
+        "category": "Abbigliamento",
+        "price": "78"
+    },
+    {
+        "id": 6,
+        "name": "Divani termoriscaldante",
+        "category": "Arredamento",
+        "price":"1500"
+    },
+    {
+        "id": 7,
+        "name": "Pala richiudibile",
+        "category": "Giardinaggio",
+        "price":"56"
+    },
+    {
+        "id": 8,
+        "name": "Master of Pupo",
+        "category": "Musica",
+        "price": "17"
+    },
+    {
+        "id": 9,
+        "name": "TV Samsung",
+        "category": "Elettronica",
+        "price": "230.99"
+    },
+    {
+        "id": 10,
+        "name": "Impianto hi fi",
+        "category": "Musica",
+        "price": "2500"
+    },
+    {
+        "id": 11,
+        "name": "Spada Laser",
+        "category": "Tecnologie",
+        "price": "70"
+    },
+    {
+        "id": 12,
+        "name": "Trilocale",
+        "category": "Immobili",
+        "price": "20000"
+    },
+    {
+        "id": 13,
+        "name": "Sciarpa scolorita",
+        "category": "Abbigliamento",
+        "price": "8"
+    },
+    {
+        "id": 14,
+        "name": "Lampada",
+        "category": "Arredamento",
+        "price": "70"
+    },
+    {
+        "id": 15,
+        "name": "Concime Bio",
+        "category": "Giardinaggio",
+        "price": "5.45"
+    },
+    {
+        "id": 16,
+        "name": "Basso nuovo",
+        "category": "Musica",
+        "price": "300.89"
+    },
+    {
+        "id": 17,
+        "name": "Cuffie Sony",
+        "category": "Elettronica",
+        "price": "120"
+    },
+    {
+        "id": 18,
+        "name": "Ducati Elettric",
+        "category": "Motori",
+        "price": "19000"
+    },
+    {
+        "id": 19,
+        "name": "Pattini con reatore ",
+        "category": "Sport",
+        "price": "899"
+    },
+
+    {
+        "id": 21,
+        "name": "Guanti invernali riscaldabili",
+        "category": "Abbigliamento",
+        "price": "40.99"
+    },
+    {
+        "id": 22,
+        "name": "Scrivania con diplay integrato",
+        "category": "Arredamento",
+        "price": "1200"
+    },
+    {
+        "id": 23,
+        "name": "Secchio in PLC",
+        "category": "Giardinaggio",
+        "price": "30.45"
+    },
+    {
+        "id": 24,
+        "name": "Compilation Pupo",
+        "category": "Musica",
+        "price": "9.90"
+    },
+    {
+        "id": 25,
+        "name": "Auricolari Sennheiser",
+        "category": "Elettronica",
+        "price": "100.93"
+    },
+    {
+        "id": 26,
+        "name": "Eco auto",
+        "category": "Motori",
+        "price": "50.42"
+    },
+    {
+        "id": 27,
+        "name": "Set mazze da golf",
+        "category": "Sport",
+        "price": "1320"
+    },
+    {
+        "id": 28,
+        "name": "Posto auto",
+        "category": "Immobili",
+        "price": "2200.63"
+    },
+    {
+        "id": 29,
+        "name": "Zaino Decathlon",
+        "category": "Abbigliamento",
+        "price": "59.55"
+    },
+    {
+        "id": 30,
+        "name": "Comodino ",
+        "category": "Arredamento",
+        "price": "210.12"
+    },
+    {
+        "id": 31,
+        "name": "Rastrello per grattarsi",
+        "category": "Accessori",
+        "price": "5.62"
+    },
+    {
+        "id": 32,
+        "name": "Compilation Nino D'Angelo",
+        "category": "Musica",
+        "price": "1.91"
+    },
+    {
+        "id": 33,
+        "name": "IPhone PRO",
+        "category": "Elettronica",
+        "price": "1800.40"
+    },
+    {
+        "id": 34,
+        "name": "Tesla mode S usata",
+        "category": "Motori",
+        "price": "28420"
+    },
+    {
+        "id": 35,
+        "name": "Guanti da palestra",
+        "category": "Sport",
+        "price": "11.54"
+    },
+
+    {
+        "id": 37,
+        "name": "Scarpe Nike Shox ",
+        "category": "Abbigliamento",
+        "price": "220.22"
+    },
+    {
+        "id": 38,
+        "name": "Poltrona Massaggiante",
+        "category": "Arredamento",
+        "price": "420.66"
+    },
+    {
+        "id": 39,
+        "name": "Semi vari",
+        "category": "Giardinaggio",
+        "price": "4.43"
+    },
+    {
+        "id": 40,
+        "name": "Biglietto Gans n Roses",
+        "category": "Musica",
+        "price": "150.65"
+    },
+    {
+        "id": 41,
+        "name": "Macbook Pro",
+        "category": "Elettronica",
+        "price": "2340.37"
+    },
+    {
+        "id": 42,
+        "name": "Bmw i3",
+        "category": "Motori",
+        "price": "23470.73"
+    },
+    {
+        "id": 43,
+        "name": "Canoa",
+        "category": "Sport",
+        "price": "520.03"
+    },
+    {
+        "id": 44,
+        "name": "Cantina",
+        "category": "Immobili",
+        "price": "10000"
+    },
+    {
+        "id": 45,
+        "name": "Jeans",
+        "category": "Abbigliamento",
+        "price": "75.54"
+    },
+    {
+        "id": 46,
+        "name": "Lampadario Imotion",
+        "category": "Arredamento",
+        "price": "280.54"
+    },
+    {
+        "id": 47,
+        "name": "Trattore Elettrico",
+        "category": "Giardinaggio",
+        "price": "12000.09"
+    },
+    {
+        "id": 48,
+        "name": "Plettro",
+        "category": "Musica",
+        "price": "7.99"
+    },
+    {
+        "id": 49,
+        "name": "Modem",
+        "category": "Mimmo",
+        "price": "2.99"
+    },
+    {
+        "id": 50,
+        "name": "Gabbiano povero",
+        "category": "Mimmo",
+        "price": "6.99"
+    }  
+]

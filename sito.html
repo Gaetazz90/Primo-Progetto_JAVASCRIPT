@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SITO WEB-NEGOZIO MUSICALE</title>
+  
+  <!-- FONTAWESOME CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- AOS CSS-->  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
+  
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Alumni+Sans+Collegiate+One:ital@1&family=Architects+Daughter&   family=Croissant+One&family=Dancing+Script&family=Dela+Gothic+One&family=Oswald:wght@500&family=Pixelify+Sans&family=Quicksand:wght@300&  display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Alumni+Sans+Collegiate+One:ital@1&family=Architects+Daughter&family=Croissant+One&family=Dancing+Script&family=Dela+Gothic+One&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Oswald:wght@500&family=Pixelify+Sans&family=Playfair+Display:ital@0;1&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Alumni+Sans+Collegiate+One:ital@1&family=Architects+Daughter&family=Croissant+One&family=Dancing+Script&family=Dela+Gothic+One&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Oswald:wght@500&family=Pixelify+Sans&family=Playfair+Display:ital@0;1&family=Quicksand:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+  
+  <!-- SWIPER CSS -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+
+<body>
+  
+  <!-- INIZIO NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-navbar1 fixed-top" id="barra">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-compact-disc" id="logo"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#personalnavbar" 
+      aria-controls="personalnavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="personalnavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Chi siamo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Artista
+          </a>
+          <ul class="dropdown-menu bg-colorY">
+            <li><a class="dropdown-item" href="#">Artista 1</a></li>
+            <li><a class="dropdown-item" href="#">Artista 2</a></li>
+            <li><a class="dropdown-item" href="#">Artista 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Album
+          </a>
+          <ul class="dropdown-menu bg-colorY">
+            <li><a class="dropdown-item" href="#">Album 1</a></li>
+            <li><a class="dropdown-item" href="#">Album 2</a></li>
+            <li><a class="dropdown-item" href="#">Album 3</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <i class="fa-solid fa-magnifying-glass fa-xl me-3 mt-2" id="search"></i>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- FINE NAVBAR -->
+
+<!-- INIZIO HEADER -->
+
+<header>
+  <div class="container-fluid vh-100 bg-header d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-12"> 
+        <h1>VINYLS.IT</h1>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <i class="fa-solid fa-guitar icon-custom"></i>
+          </div>
+          <div class="col-12 col-md-4">
+            <i class="fa-solid fa-drum icon-custom"></i>
+          </div>
+          <div class="col-12 col-md-4">
+            <i class="fa-solid fa-microphone-lines icon-custom"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>          
+</header>
+
+<!-- FINE HEADER -->      
+
+<!-- INIZIO MAIN        -->
+
+<!-- Section AOS -->
+<main>
+
+
+  <section class="container-fluid vh-100 d-flex align-items-center bg-main">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center" data-aos="fade-right" data-aos-duration="2000">
+        <a href="./annunci.html"> <i class="fa-solid fa-headphones fa-2xl" id="cuffie"></i> </a>
+        <h2> Vinyls.it-Visita il nostro shop</h2>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Tempore sit nulla cupiditate fuga quibusdam ipsum fugit officia impedit id? 
+          Officia, laboriosam eaque animi quibusdam minima reiciendis natus numquam quasi delectus.</p>
+      </div>
+        
+      <div class="col-12 col-md-6" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./media/img-main.jpg" id="img-main" alt="immagine sito">
+      </div>
+    </div>
+  </section>
+    
+    <!-- Section numbers      -->
+    <section class="container vh-50">
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex align-items-center">
+          <h2 id="title-sec"> I NOSTRI NUMERI AZIENDALI </h2>
+        </div>
+        <div class="col-12 col-md-6">
+          <p class="fs-5 text-colorG"><span class="fs-1 text-colorB" id="firstnumber">0</span>Prodotti venduti</p>
+          <p class="fs-5 text-colorG"><span class="fs-1 text-colorB" id="secondnumber">0</span>Clienti soddisfatti</p>
+          <p class="fs-5 text-colorG"><span class="fs-1 text-colorB" id="thirdnumber">0</span>Aziende partner</p>
+        </div>
+      </div>      
+    </section>
+    
+    <!-- Section caroselli-->
+    
+    <!-- Slider main container -->
+    <section class="container vh-100">
+      <div class="row justify-content-center">
+        
+        <div class="col-12 col-md-10">
+          
+          <!-- Slider main container -->
+          <div class="mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              
+              
+            </div>
+          </div> 
+          
+        </div>
+      </div>  
+    </section>
+      
+      
+</main>
+    
+    
+    <!-- FINE MAIN        -->
+    
+    
+    
+    <!-- FONTAWESOME JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" 
+    integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- AOS JS-->   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- MY JS -->
+    <script src="./sito.js"></script>
+    
+  </body>
+  </html>
+  
